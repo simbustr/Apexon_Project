@@ -9,8 +9,20 @@ Task Management Application is a web-based tool built with React.js, designed to
 ### Why use TaskFlow?
 
 
-- **Task Scheduling Made Easy 
-- **Comprehensive Task Progress Tracking
-- **Effortless Task Filtering
-- **Task Categorization for Organization
-- **In-depth Task Statistics
+- Task Scheduling Made Easy 
+- Comprehensive Task Progress Tracking
+- Effortless Task Filtering
+- Task Categorization for Organization
+- In-depth Task Statistics
+
+
+# Development
+
+## 🛠️ Tools
+
+- **Client:**
+  - JavaScript
+  - React
+  - Tailwind Css
+  - CSS
+  - TypeScript
