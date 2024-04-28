@@ -44,5 +44,5 @@ https://github.com/simbustr/Apexon_Project.git
 
 ### 2.Navigate to the project directory:
 
-Apexon_Project
+cd Apexon_Project
 
