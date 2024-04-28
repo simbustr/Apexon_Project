@@ -42,3 +42,7 @@ Task Management Application is a web-based tool built with React.js, designed to
 
 https://github.com/simbustr/Apexon_Project.git
 
+### 2.Navigate to the project directory:
+
+Apexon_Project
+
