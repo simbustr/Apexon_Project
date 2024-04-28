@@ -33,3 +33,12 @@ Task Management Application is a web-based tool built with React.js, designed to
 - **CSS Styling:** 🎨 Custom styles to enhance visual presentation and user experience.
 - **Responsive UI:** 📱 A smooth experience on various devices through a responsive user interface.  
 
+
+# Getting Started
+
+## Installation
+
+### 1.Clone the repository from GitHub:
+
+https://github.com/simbustr/Apexon_Project.git
+
