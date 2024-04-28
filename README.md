@@ -26,3 +26,10 @@ Task Management Application is a web-based tool built with React.js, designed to
   - Tailwind Css
   - CSS
   - TypeScript
+
+## 💻 Features
+
+- **React Frontend:** ⚛️ Dynamic and interactive user interfaces using the React library.
+- **CSS Styling:** 🎨 Custom styles to enhance visual presentation and user experience.
+- **Responsive UI:** 📱 A smooth experience on various devices through a responsive user interface.  
+
