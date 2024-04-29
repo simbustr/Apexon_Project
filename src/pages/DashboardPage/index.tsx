@@ -10,6 +10,7 @@ interface DashboardPageProps {
 const DashboardPage = ({ onLogout }: DashboardPageProps) => {
   const handleLogout = () => {
     onLogout();
+    localStorage.removeItem("email")
   };
 
   return (

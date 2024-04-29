@@ -30,8 +30,10 @@ const LoginPage = ({ onLogin }: LoginPageProps) => {
       formData.email === "test@example.com" &&
       formData.password === "admin123"
     ) {
-      // localStorage.setItem("email", formData.email);
-      // localStorage.setItem("password", formData.password);
+      
+      localStorage.setItem("email", formData.email);
+     // localStorage.setItem("password", formData.password);
+
       onLogin();
       navigate("/dashboard");
       alert("Login successful!");

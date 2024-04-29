@@ -9,27 +9,38 @@ const App = () => {
 
   const handleLogin = () => {
     setIsLoggedIn(true);
-    
   };
 
   const handleLogout = () => {
     setIsLoggedIn(false);
   };
 
+  const email = localStorage.getItem("email");
+
   return (
     <BrowserRouter>
       <Routes>
         <Route
           path="/"
-          element={isLoggedIn ? <Navigate to="/dashboard" /> : <LoginPage onLogin={handleLogin} />}
+          element={
+            email ? (
+              <Navigate to="/dashboard" />
+            ) : (
+              <LoginPage onLogin={handleLogin} />
+            )
+          }
         />
         <Route path="register" element={<RegisterPage />} />
         <Route
           path="dashboard"
-          element={isLoggedIn ? <DashboardPage onLogout={handleLogout} /> : ""}
+          element={
+            email ? (
+              <DashboardPage onLogout={handleLogout} />
+            ) : (
+              <Navigate to="/" />
+            )
+          }
         />
-
-             
       </Routes>
     </BrowserRouter>
   );
